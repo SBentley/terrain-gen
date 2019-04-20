@@ -4,4 +4,4 @@
 A 2D terrain generator in python based on Perlin/Simplex noise
 
 Example output: 
-![alt text](example.png "Example output")
+![Image of example output, a generated world with base = 198](example.png "Example output")
