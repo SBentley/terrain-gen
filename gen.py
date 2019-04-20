@@ -5,13 +5,13 @@ import numpy as np
 from noise import pnoise2
 import utils
 
-w, h = 1024, 1024
+w, h = 512, 512
 
 r = random.randint(0, 255)
 print(r)
 
 canvas = (w, h)
-scale = 200.0
+scale = 100.0
 octaves = 6
 persistence = 0.5
 lacunarity = 2.0
