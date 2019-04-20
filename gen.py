@@ -7,13 +7,10 @@ import utils
 
 w, h = 1024, 1024
 
-data = np.zeros((h, w), dtype=np.uint8)
-
-
 r = random.randint(0, 255)
 print(r)
 
-canvas = (1024, 1024)
+canvas = (w, h)
 scale = 200.0
 octaves = 6
 persistence = 0.5
